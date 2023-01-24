@@ -1,0 +1,5 @@
+#! /bin/bash
+
+target=$(python3 cat_sshhost.py | fzf --query "$*")
+echo ssh $target
+ssh "${target}"

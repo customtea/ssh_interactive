@@ -1,0 +1,5 @@
+[path]
+sshdir = "~/.ssh/conf.d/"
+
+[search]
+ignore_list = ["jump", "github", "-\\*$"]
